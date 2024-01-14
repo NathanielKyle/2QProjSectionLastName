@@ -1,0 +1,107 @@
+﻿@font-face {
+    font-family: Delectable;
+    src: url('../public/multimedia/OldLondon.ttf');
+}
+
+@font-face {
+    font-family: OptimusPrinceps;
+    src: url('../public/multimedia/OptimusPrinceps.ttf');
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    background-color: #67bdef;
+    overflow: hidden;
+}
+
+    header h1 {
+        padding: 1px 0px 1px 10px;
+        font-family: Delectable;
+        font-size: 70px;
+        margin-top: 10px
+    }
+
+    header h3 {
+        padding: 0px 0px 1px 10px;
+        font-family: Georgia;
+        margin-top: -50px
+    }
+
+    header h1 span {
+        font-size: 120px;
+    }
+
+    header img {
+        float: right;
+        margin-top: 20px;
+    }
+
+nav {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: white;
+    display: block;
+    position: relative;
+}
+
+    nav ol {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        text-decoration:none;
+    }
+
+
+        nav li:nth-of-type(1) {
+            float: left;
+            margin-right: 10px;
+        }
+
+        nav li:nth-of-type(2) {
+            float: left;
+            margin-right: 10px;
+        }
+
+    nav li:nth-of-type(3) {
+        float: left;
+        margin-right: 10px;
+    }
+
+    nav a:hover{
+        color:black
+    }
+    nav a:visited {
+        color: green;
+        font-size:100px;
+    }
+
+footer{
+    margin-top:10px;
+    position:relative;
+    text-align: center;
+    left:43%;
+    margin-bottom:-100px;
+    color:white;
+}
+
+.walk {
+    position: relative;
+    background: url('../public/sprites/walking.jpg') no-repeat 0 0;
+    width: 97px;
+    height: 124px;
+    animation: varName 1s steps(4) infinite;
+    left: 25%
+}
+
+@keyframes varName {
+    from {
+        background-position-x: 0px;
+    }
+
+    to {
+        background-position-x: -405px;
+    }
+}

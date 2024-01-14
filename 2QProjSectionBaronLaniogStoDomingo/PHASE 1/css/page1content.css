@@ -1,0 +1,102 @@
+﻿section {
+    background-color: darkblue;
+    padding-bottom:5px;
+}
+
+    section #arti{
+        padding-top :10px;
+        text-align:center;
+        color:white;
+        margin-bottom:0px;
+    }
+
+    section h1 {
+        font-family: Optimus Princeps;
+        color: white;
+        font-size: 90px;
+        text-align: center;
+        margin-top: 0px;
+        margin-bottom: 10px; 
+    }
+
+    section figure {
+        background-color: #333;
+        overflow: auto;
+        white-space: nowrap;
+        padding: 0px;
+        margin-top: 0;
+        border: 2px solid black;
+        width: 45%;
+        border-radius:10px
+    }
+
+        section figure img, video {
+            padding: 10px;
+            height: 500px
+        }
+
+    section figcaption {
+        font-family: Optimus Princeps;
+        float: right;
+        text-align:center;
+        font-size: 40px;
+        color:white;
+        margin-right:20px;
+        margin-top:-20px
+    }
+
+    section figcaption::first-letter{
+        font-size:200%;
+        font-family:Delectable;
+    }
+
+        section figcaption a {
+            font-size: 20px;
+        }
+    
+    aside{
+        position:absolute;
+        float:right;
+        color:white;
+        top:675px;
+        right:15px;
+        border:2px dashed black;
+        border-radius:10px;
+        background-color:darkcyan;
+        margin-bottom:0
+    }
+    aside article{ 
+        font-size:20px;
+        text-align: center;
+    }
+    aside h3{
+        font-size:25px;
+        margin: 5px 5px 1px 5px;
+        font-family: Optimus Princeps;
+        text-align:center;
+    }
+        aside p {
+            float:right;
+            font-size: 25px;
+            margin-right:5px;
+            font-family: Optimus Princeps;
+            text-align: center;
+            margin-top:-8px;
+            font-weight:bold;
+        }
+            aside p::first-letter {
+                font-family:Delectable;
+                font-size:200%;
+                font-weight:normal;
+            }
+        aside a{
+            font-size:75%
+        }
+    aside img{
+        margin: 10px 10px 5px 10px;
+        right:0px;
+        height: 200px;
+        border-radius:15px
+    }
+    
+
