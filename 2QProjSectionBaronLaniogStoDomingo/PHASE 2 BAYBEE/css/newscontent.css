@@ -1,0 +1,33 @@
+﻿h2 {
+    font-size: 100px;
+    font-family: delectable;
+    color: red;
+    text-align: center;
+}
+
+h6{
+    color:white;
+    text-align:center;
+    margin-top:-90px
+}
+
+p{
+    font-size:30px;
+    color:white;
+    margin: 20px 20px 20px 20px
+}
+
+#start::first-letter{
+    font-family:Delectable;
+    font-size:200%
+}
+
+#quote{
+    font-style:italic;
+    font-size:300%
+}
+
+img,video{
+    border-radius:10px;
+}
+
